@@ -1,0 +1,69 @@
+(py38torch180) root@zlzang:~/project/tpd_celldisc# python main.py --lr 0.002 --l2 0.05 --epochs 100 --alpha 1.6 --batch_size 128 --seed 1 --device cuda --verbose 0 --plot 1 --fillna 12.0 --stan_feature 0 --protein_list_input P02765 P04083 O00339 P58546 O75347 P04216 P02751 P83731 P00568 P78527 P04792 P57737 P42224 P27797 Q9HAT2 P30086 O14964 P10909 P17931 --use_wandb 1
+['P02765', 'P04083', 'O00339', 'P58546', 'O75347', 'P04216', 'P02751', 'P83731', 'P00568', 'P78527', 'P04792', 'P57737', 'P42224', 'P27797', 'Q9HAT2', 'P30086', 'O14964', 'P10909', 'P17931']
+wandb: Currently logged in as: cairi (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.12.21 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.10.31
+wandb: Syncing run TPD_0.002_0.05_100_1.6
+wandb:  View project at https://wandb.ai/zangzelin/TPD2021_v5
+wandb:  View run at https://wandb.ai/zangzelin/TPD2021_v5/runs/xoajnok4
+wandb: Run data is saved locally in /root/project/tpd_celldisc/wandb/run-20220707_020930-xoajnok4
+wandb: Run `wandb offline` to turn off syncing.
+
+sys:1: DtypeWarning: Columns (0) have mixed types.Specify dtype option on import or set low_memory=False.
+sys:1: DtypeWarning: Columns (0,87) have mixed types.Specify dtype option on import or set low_memory=False.
+{'train_auc': 0.9513888888888888, 'n_feature': 19, 'ret_auc': 0.9362220293209876, 'ret_acc': 0.8888888888888888, 'pro_auc': 0.9573017344101682, 'pro_acc': 0.8905660377358491, 'pro_auc_new': 0.927872340425532, 'pro_acc_new': 0.8503401360544217, 'AC_auc': 0.834978354978355, 'AC_acc': 0.83125, 'AC_auc_new': 0.8251001335113486, 'AC_acc_new': 0.8159509202453987, 'PRO34_auc_new': 0.8873128447596532, 'PRO34_acc_new': 0.7972972972972973}
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+No handles with labels found to put in legend.
+
+wandb: Waiting for W&B process to finish, PID 66618
+wandb: Program ended successfully.
+wandb:                                                                                
+wandb: Find user logs for this run at: /root/project/tpd_celldisc/wandb/run-20220707_020930-xoajnok4/logs/debug.log
+wandb: Find internal logs for this run at: /root/project/tpd_celldisc/wandb/run-20220707_020930-xoajnok4/logs/debug-internal.log
+wandb: Run summary:
+wandb:        train_auc 0.95139
+wandb:        n_feature 19
+wandb:          ret_auc 0.93622
+wandb:          ret_acc 0.88889
+wandb:          pro_auc 0.9573
+wandb:          pro_acc 0.89057
+wandb:      pro_auc_new 0.92787
+wandb:      pro_acc_new 0.85034
+wandb:           AC_auc 0.83498
+wandb:           AC_acc 0.83125
+wandb:       AC_auc_new 0.8251
+wandb:       AC_acc_new 0.81595
+wandb:    PRO34_auc_new 0.88731
+wandb:    PRO34_acc_new 0.7973
+wandb:         _runtime 60
+wandb:       _timestamp 1657159830
+wandb:            _step 0
+wandb: Run history:
+wandb:       train_auc ▁
+wandb:       n_feature ▁
+wandb:         ret_auc ▁
+wandb:         ret_acc ▁
+wandb:         pro_auc ▁
+wandb:         pro_acc ▁
+wandb:     pro_auc_new ▁
+wandb:     pro_acc_new ▁
+wandb:          AC_auc ▁
+wandb:          AC_acc ▁
+wandb:      AC_auc_new ▁
+wandb:      AC_acc_new ▁
+wandb:   PRO34_auc_new ▁
+wandb:   PRO34_acc_new ▁
+wandb:        _runtime ▁
+wandb:      _timestamp ▁
+wandb:           _step ▁
+wandb: 
+wandb: Synced 6 W&B file(s), 20 media file(s), 4 artifact file(s) and 5 other file(s)
+wandb: 
+wandb: Synced TPD_0.002_0.05_100_1.6: https://wandb.ai/zangzelin/TPD2021_v5/runs/xoajnok4
