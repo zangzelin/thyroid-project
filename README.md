@@ -5,10 +5,7 @@ the output of the code is shwon in ./main.log
 [![DOI](https://joss.theoj.org/papers/10.21105/joss.01596/status.svg)](https://doi.org/10.21105/joss.01596) [![DOI](https://zenodo.org/badge/144551119.svg)](https://zenodo.org/badge/latestdoi/144551119) 
 # Manidold leanrning based neural network model for thyroid-project
 
-Implementation of the ivis algorithm as described in the paper [Protein classifier for thyroid nodules learned from rapidly acquired proteotypes (preprint)](https://www.medrxiv.org/content/medrxiv/early/2020/04/14/2020.04.09.20059741.full.pdf) and [Artificial intelligence defines protein-based classification of thyroid nodules](https://www.medrxiv.org/content/medrxiv/early/2020/04/14/2020.04.09.20059741.full.pdf).
-
-![mainfig](readme_fig/mainfig.png)
-Classifier development, performance testing and validation in independent blinded datasets.(A) Schematic of principal classifier model (details in Supplementary Methods). (B) ROC plots of seven different machine learning modelunder 14 selected features. (C) t-SNE plot showing the separation between benign malignant groups in the discovery set using 14 protein features with latent space; and ROC plots of the training and validation sample subgroups of the discovery set. (D-E) t-SNE and ROC plots of the performance for (D) retrospective test sets; and (E) prospective test set (total cohort and individual hospital sites as indicated). (F) Overall performance metrics of prediction of the neural network model for five specific histopathological types per site. Graduated colors in the shaded bar indicate accuracy levels. Numbers in the boxes indicate the number of correctly identified samples/total sample number
+Implementation of the algorithm as described in the paper [Protein classifier for thyroid nodules learned from rapidly acquired proteotypes (preprint)](https://www.medrxiv.org/content/medrxiv/early/2020/04/14/2020.04.09.20059741.full.pdf) and [Artificial intelligence defines protein-based classification of thyroid nodules](https://www.medrxiv.org/content/medrxiv/early/2020/04/14/2020.04.09.20059741.full.pdf).
 
 
 ## Environment
