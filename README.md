@@ -1,7 +1,4 @@
 
-
-the output of the code is shwon in ./main.log
-
 [![DOI](https://joss.theoj.org/papers/10.21105/joss.01596/status.svg)](https://doi.org/10.21105/joss.01596) [![DOI](https://zenodo.org/badge/144551119.svg)](https://zenodo.org/badge/latestdoi/144551119) 
 # Manidold leanrning based neural network model for thyroid-project
 
